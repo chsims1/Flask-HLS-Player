@@ -1,10 +1,10 @@
-Simple Flask HLS Demo
+Simple Flask HLS Player for [Picam](https://github.com/iizukanao/picam)
 
 How to run
 
 ~~~bash
 pip install -r requirements.txt
-./run.sh
+python app.py
 ~~~
 
-go [http://localhost:5000](http://localhost:5000)
+ Video will play at http://localhost:5000
