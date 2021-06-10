@@ -20,7 +20,7 @@ def index():
 @app.route('/video/<string:file_name>')
 def stream(file_name):
     video_dir = './video'
-    return send_from_directory(directory=video_dir, filename=file_name)
+    return send_from_directory(video_dir, file_name)
 
 
 if __name__ == '__main__':
